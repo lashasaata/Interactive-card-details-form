@@ -13,7 +13,7 @@ function Result(props) {
       </span>
       <button
         onClick={continues}
-        className="w-[327px] h-[53px] rounded-[8px] bg-[#21092f] text-lg text-white font-[500] mt-[48px]"
+        className="w-[327px] lg:w-[381px] h-[53px] rounded-[8px] bg-[#21092f] text-lg text-white font-[500] mt-[48px]"
       >
         Continue
       </button>

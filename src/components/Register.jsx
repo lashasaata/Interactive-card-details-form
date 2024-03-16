@@ -22,7 +22,7 @@ function Register(props) {
           name="userName"
           id="1"
           placeholder="e.g. Jane Appleseed"
-          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25 hover:cursor-pointer"
         />
       </div>
       <div className="flex flex-col gap-[9px]">
@@ -37,7 +37,7 @@ function Register(props) {
           name="cardNumber"
           id="2"
           placeholder="e.g. 1234 5678 9123 0000"
-          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25 hover:cursor-pointer"
         />
         <span className="text-xs text-[#ff5050] font-[500]">
           Wrong format, numbers only
@@ -57,14 +57,14 @@ function Register(props) {
               name="month"
               id="3"
               placeholder="MM"
-              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25 hover:cursor-pointer"
             />
             <input
               type="text"
               name="year"
               id="4"
               placeholder="YY"
-              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25 hover:cursor-pointer"
             />
           </div>
           <span className="text-xs text-[#ff5050] font-[500]"></span>
@@ -81,7 +81,7 @@ function Register(props) {
             name="cvc"
             id="5"
             placeholder="e.g. 123"
-            className="w-[164px] lg:w-[191px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+            className="w-[164px] lg:w-[191px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25 hover:cursor-pointer"
           />
           <span className="text-xs text-[#ff5050] font-[500]"></span>
         </div>

@@ -7,7 +7,8 @@ function Register(props) {
     <form
       action=""
       name="cardRegistration"
-      className="flex flex-col items-center gap-[20px]"
+      id="form"
+      className="flex flex-col items-center gap-[20px] lg:gap-[26px]"
     >
       <div className="flex flex-col gap-[9px]">
         <label
@@ -21,7 +22,7 @@ function Register(props) {
           name="userName"
           id="1"
           placeholder="e.g. Jane Appleseed"
-          className="w-[327px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
         />
       </div>
       <div className="flex flex-col gap-[9px]">
@@ -36,13 +37,13 @@ function Register(props) {
           name="cardNumber"
           id="2"
           placeholder="e.g. 1234 5678 9123 0000"
-          className="w-[327px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+          className="w-[327px] lg:w-[386px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
         />
         <span className="text-xs text-[#ff5050] font-[500]">
           Wrong format, numbers only
         </span>
       </div>
-      <div className="flex items-center gap-[11px] ">
+      <div className="flex items-center gap-[11px] lg:gap-[20px]">
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="3"
@@ -50,20 +51,20 @@ function Register(props) {
           >
             Exp. Date (MM/YY)
           </label>
-          <div className="flex items-center gap-[8px]">
+          <div className="flex items-center gap-[8px] lg:gap-[10px]">
             <input
               type="text"
               name="month"
               id="3"
               placeholder="MM"
-              className="w-[72px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
             />
             <input
               type="text"
               name="year"
               id="4"
               placeholder="YY"
-              className="w-[72px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+              className="w-[72px] lg:w-[80px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
             />
           </div>
           <span className="text-xs text-[#ff5050] font-[500]"></span>
@@ -80,7 +81,7 @@ function Register(props) {
             name="cvc"
             id="5"
             placeholder="e.g. 123"
-            className="w-[164px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
+            className="w-[164px] lg:w-[191px] h-[45px] text-lg text-[#21092f] font-[500] rounded-[8px] py-[11px] pl-4 border border-solid border-[#dfdee0] focus:outline-none focus:caret-[#21092f] placeholder:text-lg placeholder:text-[#21092f] placeholder:font-[500] placeholder:opacity-25"
           />
           <span className="text-xs text-[#ff5050] font-[500]"></span>
         </div>
@@ -88,7 +89,7 @@ function Register(props) {
       <button
         onClick={confirm}
         type="submit"
-        className="w-[327px] h-[53px] rounded-[8px] bg-[#21092f] text-lg text-white font-[500]"
+        className="w-[327px] lg:w-[381px] h-[53px] rounded-[8px] bg-[#21092f] mt-[8px] lg:mt-[14px] text-lg text-white font-[500]"
       >
         Confirm
       </button>

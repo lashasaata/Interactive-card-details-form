@@ -4,7 +4,7 @@ function Result(props) {
   };
   return (
     <div className="flex flex-col items-center">
-      <img src="./images/icon-complete.svg" alt="complited icon" />
+      <img src="/images/icon-complete.svg" alt="complited icon" />
       <span className="text-[28px] text-[#21092f] font-[500] tracking-[3.42px] mt-[35px]">
         THANK YOU!
       </span>
